@@ -1,6 +1,6 @@
 /* global describe,it, Monologue */
 
-const riveter = require( "riveter" );
+const riveter = require( "node-riveter" );
 
 describe( "Extending From Monologue", function() {
 	var MyStuff = Monologue.extend( {
