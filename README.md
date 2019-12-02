@@ -1,5 +1,8 @@
 # node-monologue
 
+[![Build Status](https://travis-ci.org/Foo-Foo-MQ/monologue.js.svg?branch=master)](https://travis-ci.org/Foo-Foo-MQ/monologue.js)
+[![Coverage Status](https://coveralls.io/repos/github/Foo-Foo-MQ/monologue.js/badge.svg?branch=master)](https://coveralls.io/github/Foo-Foo-MQ/monologue.js?branch=master)
+
 ### What is it?
 
 monologue provides 'event-emitting' functionality - commonly referred to as "pub/sub" - that can be mixed into/inherited by your JavaScript objects.
