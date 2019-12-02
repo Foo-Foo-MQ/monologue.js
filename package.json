@@ -57,7 +57,7 @@
   },
   "dependencies": {
     "lodash": "^4.17.15",
-    "riveter": "0.2.0"
+    "node-riveter": "0.3.0"
   },
   "devDependencies": {
     "coveralls": "^3.0.9",
