@@ -1,16 +1,16 @@
 {
-  "name": "monologue.js",
+  "name": "node-monologue",
   "description": "EventEmitter replacement with AMQP-style bindings and other advanced features. Compatible with postal.js's API.",
   "version": "0.3.5",
-  "homepage": "https://github.com/postaljs/monologue.js",
+  "homepage": "https://github.com/Foo-Foo-MQ/monologue.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/postaljs/monologue.js.git"
+    "url": "git@github.com:Foo-Foo-MQ/monologue.js.git"
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org"
   },
-  "author": "Jim Cowart (http://ifandelse.com)",
+  "author": "Zach Lintz, original implemenation thanks to Jim Cowart (http://ifandelse.com)",
   "contributors": [
     {
       "name": "Jim Cowart",
@@ -44,8 +44,8 @@
     "eventing"
   ],
   "bugs": {
-    "email": "jim@ifandelse.com",
-    "url": "http://github.com/postaljs/monologue.js/issues"
+    "email": "lintz.zach@gmail.com",
+    "url": "https://github.com/Foo-Foo-MQ/monologue.js/issues"
   },
   "main": "lib/monologue.js",
   "files": [
@@ -53,30 +53,15 @@
     "LICENSE"
   ],
   "engines": {
-    "node": ">=0.4.0"
+    "node": "^8 || ^10 || ^12"
   },
   "dependencies": {
     "lodash": "3.x",
     "riveter": "0.2.0"
   },
   "devDependencies": {
-    "bower": "^1.4.1",
-    "express": "~3.4.7",
-    "gulp": "~3.8.10",
-    "gulp-changed": "^1.2.1",
-    "gulp-header": "~1.2.2",
-    "gulp-hint-not": "~0.0.3",
-    "gulp-imports": "~0.0.1",
-    "gulp-jshint": "^1.11.0",
-    "gulp-jscs": "^1.6.0",
-    "gulp-plato": "^1.0.2",
-    "gulp-rename": "^1.2.0",
-    "gulp-spawn-mocha": "^2.0.1",
-    "gulp-uglify": "^1.2.0",
-    "gulp-util": "~3.0.4",
-    "jshint-stylish": "^2.0.0",
-    "karma": "^0.12.24",
     "mocha": "^2.0.1",
+    "nyc": "^14.1.1",
     "open": "~0.0.4",
     "should": "^6.0.3",
     "sinon": "~1.14.1"
@@ -95,7 +80,7 @@
     "test": "./node_modules/mocha/bin/mocha -r spec/helpers/node-setup.js spec",
     "start": "gulp server",
     "build": "gulp",
-    "coverage": "./node_modules/istanbul/lib/cli.js cover ./node_modules/mocha/bin/_mocha -x 'spec/**/*'  -- -r spec/helpers/node-setup.js spec spec/*.spec.js",
+    "coverage": "nyc --exclude=**/*.spec.js --reporter=lcov npm run test ",
     "show-coverage": "open ./coverage/lcov-report/index.html"
   }
 }
