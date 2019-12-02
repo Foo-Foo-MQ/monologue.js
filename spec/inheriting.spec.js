@@ -1,4 +1,6 @@
-/*global describe,it, Monologue, riveter*/
+/* global describe,it, Monologue */
+
+const riveter = require( "riveter" );
 
 describe( "Extending From Monologue", function() {
 	var MyStuff = Monologue.extend( {
