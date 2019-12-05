@@ -1,7 +1,7 @@
 {
   "name": "node-monologue",
   "description": "EventEmitter replacement with AMQP-style bindings and other advanced features. Compatible with postal.js's API.",
-  "version": "0.3.5",
+  "version": "0.4.0",
   "homepage": "https://github.com/Foo-Foo-MQ/monologue.js",
   "repository": {
     "type": "git",
