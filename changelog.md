@@ -1,3 +1,6 @@
+## v0.4.0
+* Convert to node only version of the lib... This is the first published version of this forked version of [monologue.js](https://github.com/postaljs/monologue.js)
+
 ## v0.3.5
 * Remove unnecessary _.bind call that seems to contribute to memory/garbage
 
