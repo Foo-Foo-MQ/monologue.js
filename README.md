@@ -1,7 +1,17 @@
 # node-monologue
 
-[![Build Status](https://travis-ci.org/Foo-Foo-MQ/monologue.js.svg?branch=master)](https://travis-ci.org/Foo-Foo-MQ/monologue.js)
-[![Coverage Status](https://coveralls.io/repos/github/Foo-Foo-MQ/monologue.js/badge.svg?branch=master)](https://coveralls.io/github/Foo-Foo-MQ/monologue.js?branch=master)
+[![Build Status](https://travis-ci.org/Foo-Foo-MQ/node-monologue.js.svg?branch=master)](https://travis-ci.org/Foo-Foo-MQ/node-monologue.js)
+[![Coverage Status](https://coveralls.io/repos/github/Foo-Foo-MQ/node-monologue.js/badge.svg?branch=master)](https://coveralls.io/github/Foo-Foo-MQ/node-monologue.js?branch=master)
+
+### Installation
+
+```
+npm i node-monologue
+```
+
+```
+const monologue = require('node-monologue')
+```
 
 ### What is it?
 
