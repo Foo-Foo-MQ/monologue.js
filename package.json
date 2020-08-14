@@ -54,19 +54,19 @@
     "LICENSE"
   ],
   "engines": {
-    "node": "^8 || ^10 || ^12"
+    "node": "^10 || ^12 || ^14"
   },
   "dependencies": {
-    "lodash": "^4.17.15",
-    "node-riveter": "0.3.0"
+    "lodash": "^4.17.20",
+    "node-riveter": "1.0.1"
   },
   "devDependencies": {
-    "coveralls": "^3.0.9",
-    "mocha": "^6.2.2",
-    "nyc": "^14.1.1",
-    "open": "~7.0.0",
+    "coveralls": "^3.1.0",
+    "mocha": "^8.1.1",
+    "nyc": "^15.1.0",
+    "open": "^7.1.0",
     "should": "^13.2.3",
-    "sinon": "~7.5.0"
+    "sinon": "~9.0.3"
   },
   "licenses": [
     {
@@ -79,7 +79,7 @@
     }
   ],
   "scripts": {
-    "test": "./node_modules/mocha/bin/mocha -r spec/helpers/node-setup.js ./spec/*.js",
+    "test": "mocha -r spec/helpers/node-setup.js ./spec/*.js",
     "coverage": "nyc --exclude=**/*.spec.js --reporter=lcov npm run test ",
     "show-coverage": "open ./coverage/lcov-report/index.html"
   }
