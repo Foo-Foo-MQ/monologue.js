@@ -54,10 +54,10 @@
     "LICENSE"
   ],
   "engines": {
-    "node": "^8 || ^10 || ^12"
+    "node": "^10 || ^12 || ^14"
   },
   "dependencies": {
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.20",
     "node-riveter": "0.3.0"
   },
   "devDependencies": {
