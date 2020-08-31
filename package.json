@@ -10,8 +10,21 @@
   "publishConfig": {
     "registry": "https://registry.npmjs.org"
   },
-  "author": "Zach Lintz, original implemenation thanks to Jim Cowart (http://ifandelse.com)",
+  "author": {
+    "name": "Foo-Foo-MQ Team",
+    "email": "dev@foofoomq.com"
+  },
   "contributors": [
+    {
+      "name": "Zach Lintz",
+      "email": "zlintz@foofoomq.com",
+      "url": "https://github.com/zlintz"
+    },
+    {
+      "name": "Parker Johansen",
+      "email": "auroq@foofoomq.com",
+      "url": "https://github.com/auroq"
+    },
     {
       "name": "Jim Cowart",
       "url": "http://ifandelse.com"
