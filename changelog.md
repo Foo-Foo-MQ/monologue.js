@@ -1,3 +1,11 @@
+## v1.0.1
+* Add support for node 15
+
+## v1.0.0
+* Add support for node 14
+* Dropped support for node 8
+* Update documentation to match ownership of Foo-Foo-MQ
+
 ## v0.4.0
 * Convert to node only version of the lib... This is the first published version of this forked version of [monologue.js](https://github.com/postaljs/monologue.js)
 
