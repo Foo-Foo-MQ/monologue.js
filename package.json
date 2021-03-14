@@ -67,7 +67,7 @@
     "LICENSE"
   ],
   "engines": {
-    "node": "^10 || ^12 || ^14"
+    "node": ">=10 <=15"
   },
   "dependencies": {
     "lodash": "^4.17.20",
