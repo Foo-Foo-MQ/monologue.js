@@ -1,3 +1,7 @@
+## v2.0.0
+* Add support for node 16+
+* Remove support for node 10
+
 ## v1.0.1
 * Add support for node 15
 
